@@ -5,3 +5,4 @@ Open Water Foundation learning resources for Twitter.
 * [Twitter's API](/twitter-api.md)
 * [Twitter OAuth](/twitter-oauth.md)
 * [Twitter Accounts Set Up](/twitter-account-setup.md)
+* [Twitter Mobile Notifications](/twitter-mobile-notifications.md)
