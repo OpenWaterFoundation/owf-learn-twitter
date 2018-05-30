@@ -2,4 +2,4 @@
 Open Water Foundation learning resources for Twitter.
 
 ## Table of Contents ##
-* [Twitter API](/twitter-api.md)
+* [Twitter's API](/twitter-api.md)
