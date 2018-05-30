@@ -10,7 +10,6 @@ API usage is [rate limited](https://developer.twitter.com/en/docs/basics/rate-li
 * [Applications of Twitter's API](#markdown-header-applications-of-twitters-api)
 
 ## Different APIs Offered
----
 There are three kinds of Twitter APIs:
 
 1. [Free and Public APIs](#markdown-header-1-free-and-public-apis)  
@@ -50,7 +49,6 @@ Real-time and historical data to power businesses at scale.
 
 
 ## API Libraries
----
 Twitter highly encourages the use of various libraries to access twitter's API functionality.
 
 To see a list of the different libraries see
@@ -72,7 +70,6 @@ multiple access tokens to easily switch between different client
 applications and Twitter accounts.
 
 ## Applications of Twitter's API
----
 **//TODO**: This section could use a little work
 
 #### Update Statuses with Twitter API:
