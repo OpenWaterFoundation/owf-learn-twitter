@@ -5,18 +5,18 @@ Twitter offers a range of different APIs for developers. The following is a brie
 API usage is [rate limited](https://developer.twitter.com/en/docs/basics/rate-limiting.html), with additional account-based [fair use limits](https://help.twitter.com/en/rules-and-policies/twitter-limits) on write/create/delete endpoints, to protect Twitter from abuse.
 
 #### Table of Contents:
-* [Different APIs Offered](#markdown-header-different-apis-offered)
-* [API Libraries](#markdown-header-api-libraries)
-* [Applications of Twitter's API](#markdown-header-applications-of-twitters-api)
+* [Different APIs Offered](#different-apis-offered)
+* [API Libraries](#api-libraries)
+* [Applications of Twitter's API](#applications-of-twitters-api)
 
 ## Different APIs Offered
 There are three kinds of Twitter APIs:
 
-1. [Free and Public APIs](#markdown-header-1-free-and-public-apis)  
-    * [REST API](#markdown-header-rest-api)  
-    * [Streaming API](#markdown-header-streaming-api)   
-2. [Twitter Premium APIs](#markdown-header-2-twitter-premium-apis)  
-3. [Enterprise APIs](#markdown-header-3-enterprise-apis-gnip) 
+1. [Free and Public APIs](#1-free-and-public-apis)  
+    * [REST API](#rest-api)  
+    * [Streaming API](#streaming-api)   
+2. [Twitter Premium APIs](#2-twitter-premium-apis)  
+3. [Enterprise APIs](#3-enterprise-apis-gnip) 
 
 ### 1. Free and Public APIs:
 * Provide basic query functionality and foundational access to twitter data.  
