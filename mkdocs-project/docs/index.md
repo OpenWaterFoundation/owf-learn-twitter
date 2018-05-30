@@ -1,4 +1,4 @@
-# Open Water Foundation / Learn MkDocs #
+# Open Water Foundation / Learn Twitter #
 
 This documentation provides resources to learn how to use Twitter API to post tweets via bash scripts and .php scripts.
 
@@ -19,7 +19,7 @@ The documentation is organized in order of information and tasks necessary.
 
 ## License ##
 
-The OWF Learn MkDocs website content and examples are licenses under the
+The OWF Learn Twitter website content and examples are licenses under the
 [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-nc-sa/4.0).
 
 ## Source Repository on GitHub ##
