@@ -45,5 +45,5 @@ This repository is maintained by the [Open Water Foundation](http://openwaterfou
 
 ## Contributors ##
 
-Steve Malers, Open Water Foundation (@smalers)
+Steve Malers, Open Water Foundation (@smalers)  
 Justin Rentie, Open Water Foundation (@jurentie)
