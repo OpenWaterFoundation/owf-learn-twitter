@@ -5,10 +5,11 @@
 site_name: Learn / Twitter
 pages:
 - Home: index.md
+- Twitter Account Setup: twitter-account-setup.md
+- Sending Out Tweets: sending-out-tweets.md
+- Twitter Authentication: authentication.md
 - Twitter API: twitter-api.md
 #- Install MkDocs: install.md
-- Twitter OAuth: twitter-oauth.md
-- Twitter Account Setup: twitter-account-setup.md
 - Twitter Mobile Notifications: twitter-mobile-notifications.md
 # //TODO: Add Resources
 # ------- configuration properties ---------------

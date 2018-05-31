@@ -1,8 +1,8 @@
 # Open Water Foundation / Learn Twitter #
 
-This documentation provides resources to learn how to use Twitter API to post tweets via bash scripts and .php scripts.
+This documentation provides resources to learn more about Twitter and the standards for using Twitter in a professional manner, as well as how to use Twitter API to post tweets either through writing custom code or by using a library. Libraries are available for several coding languages, but most of the examples in this documentation will be using the library [twitterOAuth](https://github.com/abraham/twitteroauth) since this library is simple to understand and does a decent job of showing basic examples. Examples can easily be applied to other libraries.
 
-This documentation has been written based on research on Twitter API done at Open Water Foundation.
+This documentation has been written based on research on Twitter and Twitter API done at Open Water Foundation.
 
 ## About the Open Water Foundation ##
 
