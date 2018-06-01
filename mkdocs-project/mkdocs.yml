@@ -5,8 +5,9 @@
 site_name: Learn / Twitter
 pages:
 - Home: index.md
+- Introduction: introduction.md
 - Account Setup: twitter-account-setup.md
-- Sending Out Tweets: sending-out-tweets.md
+- Sending Tweets: sending-tweets.md
 - Mobile Notifications: twitter-mobile-notifications.md
 - Authentication: authentication.md
 - Twitter API: twitter-api.md
