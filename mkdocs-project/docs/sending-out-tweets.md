@@ -14,9 +14,10 @@ Hashtags can be used to label tweets as either being related to a specific locat
 ### Search Options on Twitter ###
 #### Search Bar ####
 There are a several ways to narrow your results through Twitter search. The most basic search can be done by typing in the name of a page or a hashtag into the Twitter search bar. If you'd like to have more specific results you can combine a hashtag with a Twitter account name. This limits results to only posts from that Twitter account with the associated hashtag.  
+Example: "openwaterfoundation #snodas"
 
 #### Advanced Search ####
-On the left side of the results page you can select more search filters by clicking **show** next to **Show filters**. From here you can add different filters, or you can select **Advanced search**, for many more search options. On this page you can specify the account/accounts you want to filter by, as well as listing one or more hashtags. There are plenty of other options to further narrow your result.
+On the left side of the results page you can select more search filters by clicking **show** next to **Show filters**. From here you can add different filters, or you can select **Advanced search**, for access to several more search options. On this page you can specify the account/accounts you want to filter by, as well as listing one or more hashtags. There are plenty of other options to further narrow your result.
 
 
 ## Multiple Accounts ##
@@ -25,22 +26,28 @@ Another option is to set up multiple Twitter accounts for each specific location
 The disadvantage of setting up multiple accounts is the amount of maintenance required for each account. Setting up multiple accounts requires also setting up multiple emails to link to each account.
 
 ## Personal Accounts ##
-A third option for setting up twitter accounts to communicate with followers includes creating separate individual personal accounts for people associated with the organization. This requires setting up each person with a professional twitter account and emails to attach to each of those accounts.  
+A third option for setting up twitter accounts to communicate with followers is to create individual personal accounts for people associated with the organization. This requires setting up each person with a professional twitter account and emails to attach to each of those accounts.  
+
 In this situation followers would need to follow the personal accounts of those associated with the organization, or the organization would need to keep up on retweeting posts from the personal accounts.  
-There may be a way to automate this retweet process, but this will require more research, and is not obviously apparent how to accomplish using twitterOAuth.
+
+There may be a way to automate this retweet process, but this will require more research, and is not obvious how to accomplish using twitterOAuth.
 
 ## Public Tweets ##
 The most obvious and straight forward method of communicating with your followers is through the posting of public tweets on your account, whether that be on a general organizational account or on specific accounts.  
+
 Hashtags can be used to specify what type of tweet the post is, or to label the tweet with related information, such as a specific location.
+
+If there is a need to develop code to post tweets in an automated fashion, there are many [libraries](https://developer.twitter.com/en/docs/developer-utilities/twitter-libraries) to accomplish this using several programming languages.  
 Posting a tweet using [twitterOAuth](https://github.com/abraham/twitteroauth):
 ```php
 $twitteroauth->post('statuses/update', array('status' => 'status text here'));
 ```
+See [Twitter Mobile Notifications](/twitter-mobile-notifications.md) for how followers can configure their cell phones to receive updates from your account/accounts.
 
 ## Direct Messaging ##
-Another option for communicating with followers is by sending out direct messages. This approach will require a bit more set-up to accomplish. To send a direct message through any of the twitter libraries, or through using the [Twitter API](/twitter-api.md) will require obtaining all of the users you want to contact and configuring this information in whatever development tool you are using.  
+Another option for communicating with followers is by sending out direct messages. This approach will require a bit more set-up to accomplish. To send a direct message through any of the [twitter libraries](https://developer.twitter.com/en/docs/developer-utilities/twitter-libraries), or through using the [Twitter API](/twitter-api.md), will require obtaining ID's of all of the users you want to contact, and configuring this information in whatever development tool you are using.  
 Direct messaging using [twitterOAuth](https://github.com/abraham/twitteroauth):
 ```php
 $twitteroauth->post('direct_messages/new', array('text' => 'dm text here', 'screen_name' => 'recipients screen_name'));
 ```
-See [Twitter Mobile Notifications](/twitter-mobile-notifications.md) for how followers can configure their cell phones to receive direct messages and updates from your account/accounts.
+See [Twitter Mobile Notifications](/twitter-mobile-notifications.md) for how followers can configure their cell phones to receive direct messages from your account/accounts.

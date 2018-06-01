@@ -1,5 +1,5 @@
 # Twitter Authentication #
-Twitter uses [OAuth 2.0](https://oauth.net/) to provided authorized access to its API. This authentication will need to take place at some level if developing using [Twitter's API](/twitter-api) or if using any of the libraries that build off their API.
+Twitter uses [OAuth](https://oauth.net/) to provided authorized access to its API. This authentication will need to take place at some level if developing using [Twitter's API](/twitter-api) or if using any of the libraries that build off their API.
 
 ## Using OAuth ##
 To Use OAuth with Twitter API an application must:
@@ -8,7 +8,7 @@ To Use OAuth with Twitter API an application must:
 2. [Authorize all HTTP requests](#authorize-http-request) it sends to Twitter's API.
 
 #### Access Tokens:
-There are 4 keys needed to use OAuth for Twitter's API: Consumer Key, Consumer Secret, Access Token, and Access Token Secret.
+There are 4 keys needed for authenticating a user for Twitter's API: Consumer Key, Consumer Secret, Access Token, and Access Token Secret.
 
 To obtain these keys:
 
@@ -32,7 +32,8 @@ $tweet = new TwitterOAuth($consumerKey, $consumerSecret, $oAuthToken, $oAuthSecr
 ```
 
 #### Authorize HTTP Request:
-To allow applications to provide this information, Twitter's API relies on the OAuth 2.0 protocol. At a very simplified level, Twitter's implementation requires that requests needing authorization contain an additional HTTP Authorization header with enough information to answer the questions listed above. A version of the HTTP request shown above, modified to include this header, looks like this (normally the Authorization header would need to be on one line, but has been wrapped for legibility here):
+To allow applications to provide this information, Twitter's API relies on the OAuth protocol. Twitter's implementation requires that requests needing authorization contain an additional HTTP Authorization header with enough information to answer the questions listed above.  
+Example (normally the Authorization header would need to be on one line, but has been wrapped for legibility here):
 
 ```
 POST /1.1/statuses/update.json?include_entities=true HTTP/1.1
@@ -55,7 +56,7 @@ status=Hello%20Ladies%20%2b%20Gentlemen%2c%20a%20signed%20OAuth%20request%21
 ```
 
 Many twitter libraries will handle this step on their own and allow the development to be simple and straight forward.  
-For example, when using [twitterOAuth](https://github.com/abraham/twitteroauth):  
+For example, when using [twitterOAuth](https://github.com/abraham/twitteroauth) there's no need to configure all of these header variables:  
 ```php
 $twitteroauth->post('statuses/update', array('status' => 'status text here'));
 ```

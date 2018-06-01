@@ -1,6 +1,6 @@
 # Twitter Mobile Notifications
 
-Open Water Foundation hopes to adapt a new way of connecting with followers and allow them to receive notifications directly to their phones. Twitter allows this through mobile notifications.
+Open Water Foundation hopes to adapt a new way of connecting with followers and allow them to receive notifications directly to their phones. This can be accomplished using Twitter's mobile notifications.
 
 
 ## Direct Messages/Updated Statuses
@@ -8,12 +8,12 @@ Twitter allows users to receive mobile notifications to your phone for a number 
 
 For the sake of receiving important alerts from an organizational account the two options you might want to turn on are **Tweets from people you've enabled for mobile notifications** and **Direct Messages**.
 
-After selecting **Tweets from people you've enabled for mobile notifications** navigate to the organizations page you wish to receive updates from. Once there select the three dots in next to **Following** and select **Turn on mobile notifications**.
+After selecting **Tweets from people you've enabled for mobile notifications** navigate to the organizations page you wish to receive updates from. Once there select the three dots next to **Following** and select **Turn on mobile notifications**.
 
 Now you will receive text notifications of any direct messages or updates from the organization or user profile you turned on mobile notifications from.
 
 ## Customizing Mobile Notifications
-There are multiple ways to customize notifications separate from the default notifications, sounds, or vibrations depending on the operating system on the phone.
+There are multiple ways to customize notifications separate from the default notifications, sounds, or vibrations on a phone, depending on the operating system of that phone.
 
 The first step before proceeding with any of these devices is to save the default Twitter number in your contacts.
 
@@ -28,4 +28,4 @@ This process varies slightly depending on the phone's manufacturer and the softw
 
 1. Go to your Contacts app (which might be labelled People) and select a contact.
 2. In contact details, hit the menu button (three vertical dots in the top-right corner) and choose **Edit** (this step may be unnecessary on your phone). You may also find **Edit** in the top-right corner to begin with.
-3. Scroll down until you see **Ringtone**, **Message tone**, and **Vibration Pattern**. (you may have to select the drop down menu **View more**. Tap it and select a tone to play when they call.
+3. Scroll down until you see **Ringtone**, **Message tone**, and **Vibration Pattern** (you may have to select the drop down menu **View more**). Tap it and select a tone to play when they call.

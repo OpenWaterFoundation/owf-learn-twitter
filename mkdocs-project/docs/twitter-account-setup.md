@@ -1,5 +1,5 @@
 # Twitter Accounts Set Up
-TriLynx Systems is in the process of setting up a business twitter account to communicate and notify users with important, up-to-date, statuses. The following is suggested best practice for working with a new twitter account for business.
+Open Water Foundation is in the process of setting up an organization twitter account to communicate and notify users with important, up-to-date, statuses. The following is suggested best practice for working with a new twitter account for organizations.
 
 ## Create Official Organizational Account
 Once any bugs have been worked out through a [test account](#create-a-test-account), an official account will need to be set up for full deployment. Creating an official account is the same process as with the test account, except this information will need to be acceptable for official business.
@@ -13,11 +13,11 @@ To create an organizational account:
 	* **Phone or Email**: This will be the official email associated with your business account.
 	* **Password**: Enter in a password you can remember.
 3. Enter a valid phone number. Twitter requires an account be verified with a valid phone number before allowing access to many developer features, such as gaining access to [OAuth keys](http://localhost:8000/authentication/#access-tokens).
-4. Create a user name/twitter handle for the account. As with the Full Name this should be relevant to the business name and similar to the display name you have chosen. Again avoid numbers, and underscores. Use the upper case  naming convention.  
+4. Create a username/twitter handle for the account. As with the Full Name this should be relevant to the business name and similar to the display name you have chosen. Again avoid numbers, and underscores. Use the upper case  naming convention.  
 For example: **@OpenWaterFoundation**
 
 ## Create a Test Account
-When developing new tools it is a good idea to create a test account for testing purposes. With a test account you can post updates to Twitter and ensure that no body can see them.
+When developing new tools it is a good idea to create a test account for testing purposes. With a test account you can post updates to Twitter and ensure that nobody can see them.
 
 #### Create a Test Account:
 Create a test account similar to creating a typical user account:
@@ -30,10 +30,11 @@ Create a test account similar to creating a typical user account:
 For example, if planning on using the twitter handle **@OWFTest**, create an email such as **owftest@gmail.com**. This is only for convenience purposes, you can use any valid email for the test account.
 	* **Password**: Enter in a password you can remember.
 3. Enter a valid phone number. Twitter requires an account be verified with a valid phone number before allowing access to many developer features, such as gaining access to [OAuth keys](http://localhost:8000/authentication/#access-tokens).
-4. Create a user name/twitter handle for the account. As with the Full Name for the account it will not matter much in the end since twitter users cannot see this.
+4. Create a username/twitter handle for the account. As with the Full Name for the account it will not matter much in the end since twitter users cannot see this.  
+For Example: **@OWFTest**
 
 #### Protect Your Updates:
-Since a test account is set up with the intent of working through bugs, you don't necessarily want all tweets being public. Any tweets posted will only display to those you approve.
+A test account is set up with the intent of working through bugs, due to this there may be a desire to avoid tweets going public. By following the steps below, any tweets posted by the test account will only display to those approved users.
 
 To avoid people coming across test status updates:
 
@@ -43,7 +44,7 @@ To avoid people coming across test status updates:
 4. Check the box next to **Protect your Tweets**. This will prevent any future tweets from being available publicly.
 
 ## Managing Accounts Through Tweet Deck
-[Tweet Deck](https://tweetdeck.twitter.com/) offers the ability to connect separate twitter accounts without having to share any passwords among the separate users.
+[Tweet Deck](https://tweetdeck.twitter.com/) is a convenient online Twitter tool that offers the ability to connect separate twitter accounts without having to share any passwords among the separate users.
 
 **Tweet Deck Teams**: allows multiple users to share a Twitter account without having to share the password.  
 There are 3 different Roles associated with Tweet Deck Teams:

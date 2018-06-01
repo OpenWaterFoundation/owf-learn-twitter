@@ -7,10 +7,10 @@ pages:
 - Home: index.md
 - Account Setup: twitter-account-setup.md
 - Sending Out Tweets: sending-out-tweets.md
+- Mobile Notifications: twitter-mobile-notifications.md
 - Authentication: authentication.md
 - Twitter API: twitter-api.md
 #- Install MkDocs: install.md
-- Mobile Notifications: twitter-mobile-notifications.md
 # //TODO: Add Resources
 # ------- configuration properties ---------------
 # Use Material theme
