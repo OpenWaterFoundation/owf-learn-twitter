@@ -1,7 +1,15 @@
 # Twitter Authentication #
-Twitter uses [OAuth](https://oauth.net/) to provided authorized access to its API. This authentication will need to take place at some level if developing using [Twitter's API](/twitter-api) or if using any of the libraries that build off their API.
+
+Twitter uses [OAuth](https://oauth.net/) to provided authorized access to its API.
+This authentication will need to take place at some level if developing using [Twitter's API](/twitter-api)
+or if using any of the libraries that build off their API.
+
+* [Using OAuth](#using-oAuth)
+
+--------------------
 
 ## Using OAuth ##
+
 To Use OAuth with Twitter API an application must:
 
 1. [Obtain access Tokens](#access-tokens) to act on behalf of a user account
@@ -13,14 +21,16 @@ There are 4 keys needed for authenticating a user for Twitter's API: Consumer Ke
 To obtain these keys:
 
 1. Go to [https://apps.twitter.com/app/new](https://apps.twitter.com/app/new). Log in if necessary.
-2.  Enter desired Application Name, Description and your website address making sure to enter the full address including the http://. It is acceptable to leave the callback URL empty.
-3.  Accept the TOS and submit the form by clicking the **Create your Twitter Application**.
-4.  After creating your Twitter Application click on the tab that says **Keys and Access Tokens**. Click the Create my Access Token button.
-6.  Lastly copy the Consumer key (API key), Consumer Secret, Access Token and Access Token Secret.
+2. Enter desired Application Name, Description and your website address making sure to enter the full address including the http://. It is acceptable to leave the callback URL empty.
+3. Accept the terms of service (TOS) and submit the form by clicking the ***Create your Twitter Application***.
+4. After creating your Twitter Application click on the tab that says ***Keys and Access Tokens***.
+Click the ***Create my Access Token*** button.
+6. Lastly copy the Consumer key (API key), Consumer Secret, Access Token and Access Token Secret.
 
 These keys will need to be passed to whatever library or code written to access Twitter's API.
 
-For example, when using [twitterOAuth](https://github.com/abraham/twitteroauth):
+For example, when using [TwitterOAuth](https://github.com/abraham/twitteroauth):
+
 ```php
 $consumerKey    = 'XXX';
 $consumerSecret = 'XXX';
@@ -32,8 +42,13 @@ $tweet = new TwitterOAuth($consumerKey, $consumerSecret, $oAuthToken, $oAuthSecr
 ```
 
 #### Authorize HTTP Request:
-To allow applications to provide this information, Twitter's API relies on the OAuth protocol. Twitter's implementation requires that requests needing authorization contain an additional HTTP Authorization header with enough information to answer the questions listed above.  
+
+To allow applications to provide this information (**what information?**), Twitter's API relies on the OAuth protocol.
+Twitter's implementation requires that requests needing authorization contain an additional HTTP
+Authorization header with enough information to answer the questions listed above.  
 Example (normally the Authorization header would need to be on one line, but has been wrapped for legibility here):
+
+**I suggest you show wrapped and unwrapped versions below.**
 
 ```
 POST /1.1/statuses/update.json?include_entities=true HTTP/1.1
@@ -55,8 +70,8 @@ Host: api.twitter.com
 status=Hello%20Ladies%20%2b%20Gentlemen%2c%20a%20signed%20OAuth%20request%21
 ```
 
-Many twitter libraries will handle this step on their own and allow the development to be simple and straight forward.  
-For example, when using [twitterOAuth](https://github.com/abraham/twitteroauth) there's no need to configure all of these header variables:  
+Many twitter libraries will handle this step and allow the development to be simple and straight forward.  
+For example, when using [TwitterOAuth](https://github.com/abraham/twitteroauth) there's no need to configure all of these header variables:  
 ```php
 $twitteroauth->post('statuses/update', array('status' => 'status text here'));
 ```
